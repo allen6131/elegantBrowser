@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B118E8D51BD6E45500FBE86B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = B118E8D31BD6E45500FBE86B /* back.png */; };
+		B118E8D61BD6E45500FBE86B /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = B118E8D41BD6E45500FBE86B /* forward.png */; };
+		B18201B61BD6BB1A00052816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18201B51BD6BB1A00052816 /* AppDelegate.swift */; };
+		B18201B81BD6BB1A00052816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18201B71BD6BB1A00052816 /* ViewController.swift */; };
+		B18201BB1BD6BB1A00052816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18201B91BD6BB1A00052816 /* Main.storyboard */; };
+		B18201BD1BD6BB1A00052816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18201BC1BD6BB1A00052816 /* Assets.xcassets */; };
+		B18201C01BD6BB1A00052816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18201BE1BD6BB1A00052816 /* LaunchScreen.storyboard */; };
+		B18201CB1BD6BB1B00052816 /* Elegant_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18201CA1BD6BB1B00052816 /* Elegant_BrowserTests.swift */; };
+		B18201D61BD6BB1B00052816 /* Elegant_BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18201D51BD6BB1B00052816 /* Elegant_BrowserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18201C71BD6BB1B00052816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18201AA1BD6BB1A00052816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18201B11BD6BB1A00052816;
+			remoteInfo = "Elegant Browser";
+		};
+		B18201D21BD6BB1B00052816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18201AA1BD6BB1A00052816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18201B11BD6BB1A00052816;
+			remoteInfo = "Elegant Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B118E8D31BD6E45500FBE86B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		B118E8D41BD6E45500FBE86B /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		B18201B21BD6BB1A00052816 /* Elegant Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elegant Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18201B51BD6BB1A00052816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B18201B71BD6BB1A00052816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B18201BA1BD6BB1A00052816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18201BC1BD6BB1A00052816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18201BF1BD6BB1A00052816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B18201C11BD6BB1A00052816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18201C61BD6BB1B00052816 /* Elegant BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elegant BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18201CA1BD6BB1B00052816 /* Elegant_BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elegant_BrowserTests.swift; sourceTree = "<group>"; };
+		B18201CC1BD6BB1B00052816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18201D11BD6BB1B00052816 /* Elegant BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elegant BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18201D51BD6BB1B00052816 /* Elegant_BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elegant_BrowserUITests.swift; sourceTree = "<group>"; };
+		B18201D71BD6BB1B00052816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18201AF1BD6BB1A00052816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18201C31BD6BB1B00052816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18201CE1BD6BB1B00052816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18201A91BD6BB1A00052816 = {
+			isa = PBXGroup;
+			children = (
+				B18201B41BD6BB1A00052816 /* Elegant Browser */,
+				B18201C91BD6BB1B00052816 /* Elegant BrowserTests */,
+				B18201D41BD6BB1B00052816 /* Elegant BrowserUITests */,
+				B18201B31BD6BB1A00052816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18201B31BD6BB1A00052816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18201B21BD6BB1A00052816 /* Elegant Browser.app */,
+				B18201C61BD6BB1B00052816 /* Elegant BrowserTests.xctest */,
+				B18201D11BD6BB1B00052816 /* Elegant BrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18201B41BD6BB1A00052816 /* Elegant Browser */ = {
+			isa = PBXGroup;
+			children = (
+				B18201B51BD6BB1A00052816 /* AppDelegate.swift */,
+				B18201B71BD6BB1A00052816 /* ViewController.swift */,
+				B18201B91BD6BB1A00052816 /* Main.storyboard */,
+				B18201BC1BD6BB1A00052816 /* Assets.xcassets */,
+				B18201BE1BD6BB1A00052816 /* LaunchScreen.storyboard */,
+				B18201C11BD6BB1A00052816 /* Info.plist */,
+				B118E8D31BD6E45500FBE86B /* back.png */,
+				B118E8D41BD6E45500FBE86B /* forward.png */,
+			);
+			path = "Elegant Browser";
+			sourceTree = "<group>";
+		};
+		B18201C91BD6BB1B00052816 /* Elegant BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18201CA1BD6BB1B00052816 /* Elegant_BrowserTests.swift */,
+				B18201CC1BD6BB1B00052816 /* Info.plist */,
+			);
+			path = "Elegant BrowserTests";
+			sourceTree = "<group>";
+		};
+		B18201D41BD6BB1B00052816 /* Elegant BrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B18201D51BD6BB1B00052816 /* Elegant_BrowserUITests.swift */,
+				B18201D71BD6BB1B00052816 /* Info.plist */,
+			);
+			path = "Elegant BrowserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18201B11BD6BB1A00052816 /* Elegant Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18201DA1BD6BB1B00052816 /* Build configuration list for PBXNativeTarget "Elegant Browser" */;
+			buildPhases = (
+				B18201AE1BD6BB1A00052816 /* Sources */,
+				B18201AF1BD6BB1A00052816 /* Frameworks */,
+				B18201B01BD6BB1A00052816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elegant Browser";
+			productName = "Elegant Browser";
+			productReference = B18201B21BD6BB1A00052816 /* Elegant Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18201C51BD6BB1B00052816 /* Elegant BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18201DD1BD6BB1B00052816 /* Build configuration list for PBXNativeTarget "Elegant BrowserTests" */;
+			buildPhases = (
+				B18201C21BD6BB1B00052816 /* Sources */,
+				B18201C31BD6BB1B00052816 /* Frameworks */,
+				B18201C41BD6BB1B00052816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18201C81BD6BB1B00052816 /* PBXTargetDependency */,
+			);
+			name = "Elegant BrowserTests";
+			productName = "Elegant BrowserTests";
+			productReference = B18201C61BD6BB1B00052816 /* Elegant BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B18201D01BD6BB1B00052816 /* Elegant BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18201E01BD6BB1B00052816 /* Build configuration list for PBXNativeTarget "Elegant BrowserUITests" */;
+			buildPhases = (
+				B18201CD1BD6BB1B00052816 /* Sources */,
+				B18201CE1BD6BB1B00052816 /* Frameworks */,
+				B18201CF1BD6BB1B00052816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18201D31BD6BB1B00052816 /* PBXTargetDependency */,
+			);
+			name = "Elegant BrowserUITests";
+			productName = "Elegant BrowserUITests";
+			productReference = B18201D11BD6BB1B00052816 /* Elegant BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18201AA1BD6BB1A00052816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "AMA Tech";
+				TargetAttributes = {
+					B18201B11BD6BB1A00052816 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9K522JXE52;
+					};
+					B18201C51BD6BB1B00052816 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B18201B11BD6BB1A00052816;
+					};
+					B18201D01BD6BB1B00052816 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B18201B11BD6BB1A00052816;
+					};
+				};
+			};
+			buildConfigurationList = B18201AD1BD6BB1A00052816 /* Build configuration list for PBXProject "Elegant Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18201A91BD6BB1A00052816;
+			productRefGroup = B18201B31BD6BB1A00052816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18201B11BD6BB1A00052816 /* Elegant Browser */,
+				B18201C51BD6BB1B00052816 /* Elegant BrowserTests */,
+				B18201D01BD6BB1B00052816 /* Elegant BrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18201B01BD6BB1A00052816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B118E8D51BD6E45500FBE86B /* back.png in Resources */,
+				B18201C01BD6BB1A00052816 /* LaunchScreen.storyboard in Resources */,
+				B18201BD1BD6BB1A00052816 /* Assets.xcassets in Resources */,
+				B18201BB1BD6BB1A00052816 /* Main.storyboard in Resources */,
+				B118E8D61BD6E45500FBE86B /* forward.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18201C41BD6BB1B00052816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18201CF1BD6BB1B00052816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18201AE1BD6BB1A00052816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18201B81BD6BB1A00052816 /* ViewController.swift in Sources */,
+				B18201B61BD6BB1A00052816 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18201C21BD6BB1B00052816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18201CB1BD6BB1B00052816 /* Elegant_BrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18201CD1BD6BB1B00052816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18201D61BD6BB1B00052816 /* Elegant_BrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18201C81BD6BB1B00052816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18201B11BD6BB1A00052816 /* Elegant Browser */;
+			targetProxy = B18201C71BD6BB1B00052816 /* PBXContainerItemProxy */;
+		};
+		B18201D31BD6BB1B00052816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18201B11BD6BB1A00052816 /* Elegant Browser */;
+			targetProxy = B18201D21BD6BB1B00052816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18201B91BD6BB1A00052816 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18201BA1BD6BB1A00052816 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18201BE1BD6BB1A00052816 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18201BF1BD6BB1A00052816 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18201D81BD6BB1B00052816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B18201D91BD6BB1B00052816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18201DB1BD6BB1B00052816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Elegant Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amatech.ElegantBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B18201DC1BD6BB1B00052816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = "Elegant Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amatech.ElegantBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B18201DE1BD6BB1B00052816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Elegant BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amatech.Elegant-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elegant Browser.app/Elegant Browser";
+			};
+			name = Debug;
+		};
+		B18201DF1BD6BB1B00052816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Elegant BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amatech.Elegant-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elegant Browser.app/Elegant Browser";
+			};
+			name = Release;
+		};
+		B18201E11BD6BB1B00052816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Elegant BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amatech.Elegant-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Elegant Browser";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B18201E21BD6BB1B00052816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Elegant BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amatech.Elegant-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Elegant Browser";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18201AD1BD6BB1A00052816 /* Build configuration list for PBXProject "Elegant Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18201D81BD6BB1B00052816 /* Debug */,
+				B18201D91BD6BB1B00052816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18201DA1BD6BB1B00052816 /* Build configuration list for PBXNativeTarget "Elegant Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18201DB1BD6BB1B00052816 /* Debug */,
+				B18201DC1BD6BB1B00052816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18201DD1BD6BB1B00052816 /* Build configuration list for PBXNativeTarget "Elegant BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18201DE1BD6BB1B00052816 /* Debug */,
+				B18201DF1BD6BB1B00052816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18201E01BD6BB1B00052816 /* Build configuration list for PBXNativeTarget "Elegant BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18201E11BD6BB1B00052816 /* Debug */,
+				B18201E21BD6BB1B00052816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18201AA1BD6BB1A00052816 /* Project object */;
+}

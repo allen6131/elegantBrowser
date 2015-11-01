@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Elegant Browser/ViewController.swift"
+            timestampString = "467752615.51644"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Elegant_Browser.ViewController.addressBar.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "Elegant Browser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allenabraham/Library/Mobile%20Documents/com~apple~CloudDocs/Elegant%20Browser/Elegant%20Browser/ViewController.swift"
+                  timestampString = "467752722.079622"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Elegant_Browser.ViewController.addressBar.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "Elegant Browser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allenabraham/Library/Mobile%20Documents/com~apple~CloudDocs/Elegant%20Browser/Elegant%20Browser/ViewController.swift"
+                  timestampString = "467752722.079904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Elegant_Browser.ViewController.init (Elegant_Browser.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Elegant_Browser.ViewController"
+                  moduleName = "Elegant Browser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allenabraham/Library/Mobile%20Documents/com~apple~CloudDocs/Elegant%20Browser/Elegant%20Browser/ViewController.swift"
+                  timestampString = "467752722.080113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Elegant_Browser.ViewController.init (Elegant_Browser.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Elegant_Browser.ViewController&gt;"
+                  moduleName = "Elegant Browser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allenabraham/Library/Mobile%20Documents/com~apple~CloudDocs/Elegant%20Browser/Elegant%20Browser/ViewController.swift"
+                  timestampString = "467752722.080315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Elegant Browser/ViewController.swift"
+            timestampString = "468076881.536896"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
